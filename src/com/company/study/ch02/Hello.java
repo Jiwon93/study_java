@@ -12,6 +12,8 @@ public class Hello {
 		boolean xyz;
 		xyz = false;
 		
-
+		int with = 100;
+		String name = "신지원";
+		
 	}//main() end
 }//class end

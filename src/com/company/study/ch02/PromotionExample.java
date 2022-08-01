@@ -11,26 +11,36 @@ public class PromotionExample {
 	 	
 	 	byte < short < int < long < float < double
 	 */
+		//자동타입변환(Promotion)
+		//강제형변환(Casting)
 
 	byte byteValue = 10;
 	System.out.println("byteValue: " + byteValue);
 	
-	int intValue = byteValue;
-	System.out.println("intValue: " + intValue);
+	short shortValue = byteValue;
+	System.out.println("shortValue: " + shortValue);
 		
-////////////////////////////////////////////////////////////
+	// int에 short 대입 후 출력
 	
-	int intValue2 = 1234567890;
+	int intValue = shortValue;
 	System.out.println("intValue: " + intValue);
 	
-	byte byteValue2 = (byte) intValue2;
-	System.out.println("byteValue2: " + byteValue2 + "입니다!!!");
+	// long에 int 대입 후 출력
 	
-	int intValue3 = 200;
-	System.out.println("intValue3: " + intValue3 + "입니다!!!");
+	long longValue = intValue;
+	System.out.println("longValue: " + longValue);
 	
-	double doubleValue = intValue3;
-	System.out.println("doubleValue: " + doubleValue + "입니다!!!");
+	// float에 long 대입 후 출력
+	
+	float floatValue = longValue;
+	System.out.println("floatValue: " + floatValue);
+	
+	// double에 float 대입 후 출력
+	
+	double doubleValue = floatValue;
+	System.out.println("doubleValue: " + doubleValue);
+	
+	
 	
 	}
 }

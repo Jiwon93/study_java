@@ -40,6 +40,19 @@ public class PromotionExample {
 	double doubleValue = floatValue;
 	System.out.println("doubleValue: " + doubleValue);
 	
+	/*
+	int intValue2 = 1234567890;
+	System.out.println("intValue: " + intValue);
+	
+	byte byteValue2 = (byte) intValue2;
+	System.out.println("byteValue2: " + byteValue2 + "입니다!!!");
+	
+	int intValue3 = 200;
+	System.out.println("intValue3: " + intValue3 + "입니다!!!");
+	
+	double doubleValue = intValue3;
+	System.out.println("doubleValue: " + doubleValue + "입니다!!!");
+	*/
 	
 	
 	}

@@ -34,7 +34,7 @@ public class ForExample {
 		// **********
 		// 출력하는 프로그램을 만드시오
 		
-		/*
+		
 		for(int i=0; i<=4; i++) {
 			if(i == 0 | i == 4) {
 				System.out.println("**********");
@@ -42,7 +42,7 @@ public class ForExample {
 				System.out.println("*        *");
 			}
 		}
-		*/
+		
 		
 		
 		System.out.println("-----------------");

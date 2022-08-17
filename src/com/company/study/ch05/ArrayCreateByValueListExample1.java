@@ -19,23 +19,25 @@ public class ArrayCreateByValueListExample1 {
 		// scoreChemistry의 평균을 구해서 출력하시오
 		
 		double sum = 0;
+		double avg = 0;
 		
 		for(int i=0; i<=scoreChemistry.length-1; i++) {
 			sum += scoreChemistry[i];
 		}
 		
-		double avg = sum/scoreChemistry.length;
+		avg = sum/scoreChemistry.length;
 		
 		System.out.println("화학 평균값 : " + avg);
 		
 		/*
 		double sum = 0;
+		double avg = 0;
 		
 		for(int i=0; i<=4; i++) {
 			sum += scoreChemistry[i];
 		}
 		
-		double avg = sum/5;
+		avg = sum/5;
 		
 		System.out.println("화학 평균값 : " + avg);
 		*/

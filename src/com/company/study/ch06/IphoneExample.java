@@ -21,6 +21,9 @@ public class IphoneExample {
 		Handbag handbag = new Handbag();
 		
 		System.out.println("handbag.name: " + handbag.name);
+		
+		Watch watch = new Watch();
+		System.out.println("watch.name: " + watch.name);
 	}
 
 }

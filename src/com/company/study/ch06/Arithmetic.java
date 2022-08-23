@@ -2,6 +2,20 @@ package com.company.study.ch06;
 
 public class Arithmetic {
 	
+	String plus = "더하기";
+	String minus = "빼기";
+	
+	//기본생성자
+	Arithmetic() {
+		
+	}
+
+	Arithmetic(String plus, String minus) {
+		this.plus = plus;
+		this.minus = minus;
+	}
+	
+	
 	public int plus(int a, int b) {
 		int plus = 0;
 		plus = a + b;

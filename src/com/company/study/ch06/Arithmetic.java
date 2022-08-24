@@ -95,4 +95,9 @@ public class Arithmetic {
 	public void coupling(String a) {
 		System.out.println("정답은 " + a + "입니다.");
 	}
+	
+	static void staticTest() {
+		System.out.println("나는 00이다....");
+	}
+
 }

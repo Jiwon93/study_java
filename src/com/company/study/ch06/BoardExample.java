@@ -18,19 +18,29 @@ public class BoardExample {
 		
 		// 생성자1 필드
 		System.out.println(board1.name);
+		System.out.println(board1.views);
+		System.out.println(board1.useOrNot);
 		
 		// 생성자2 필드
 		System.out.println(board2.name);
 		System.out.println(board2.views);
+		System.out.println(board2.useOrNot);
 		
 		// 생성자3 필드
 		System.out.println(board3.name);
+		System.out.println(board3.views);
 		System.out.println(board3.useOrNot);
 		
 		// 생성자4 필드
 		System.out.println(board4.name);
 		System.out.println(board4.views);
 		System.out.println(board4.useOrNot);
+		
+		board.say();
+		board1.say();
+		board2.say();
+		board3.say();
+		board4.say();
 	}
 
 }

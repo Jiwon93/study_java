@@ -35,7 +35,8 @@ public class Board {
 		this.useOrNot = useOrNot;
 	}
 	
+	public void say() {
+		System.out.println("이름: " + name + ", " + "조회수: " + views + ", " + "사용여부: " + useOrNot);
+	}
 	
-	
-
 }
